@@ -1,6 +1,6 @@
 import pyttsx3
 import PyPDF2
-book = open('Deep Learning questions.pdf', 'rb')
+book = open('my.pdf', 'rb')
 pdfReader = PyPDF2.PdfFileReader(book)
 pages = pdfReader.numPages
 
